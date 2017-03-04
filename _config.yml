@@ -78,29 +78,30 @@ analytics:
 # Site Author
 author:
   name             : "Grzegorz Herbowicz"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "http://herbo.pl/gh.jpg"
+    name: "Grzegorz Herbowicz"
   bio              : "Full-Time Father"
   location         : "Wrocław, Poland"
-  email            :
-  uri              :
+  email            : "herbowicz@gmail.com"
+  uri              : "http://herbo.pl"
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : "herbowitz"
   foursquare       :
-  github           :
+  github           : "herbowicz"
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         :
+  linkedin         : "gregherbowicz"
   pinterest        :
   soundcloud       :
-  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
+  stackoverflow    : "3603905/greg"
   steam            :
   tumblr           :
-  twitter          :
+  twitter          : "herbowicz"
   vine             :
   weibo            :
   xing             :
