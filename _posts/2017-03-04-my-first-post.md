@@ -5,5 +5,4 @@ Category: Websites
 tags: [how2spend]
 lang: en-EN
 ---
-My recent project:
-[https://how2spend.com]
+My recent project is how2spend.com
