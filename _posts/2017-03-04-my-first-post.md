@@ -6,5 +6,4 @@ tags: [how2spend]
 lang: en-EN
 ---
 My recent project:
-
-## [https://how2spend.com](https://how2spend.com)
+[https://how2spend.com]
