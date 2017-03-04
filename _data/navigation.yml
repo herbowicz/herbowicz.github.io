@@ -1,9 +1,9 @@
 # main links
 main:
+  - title: "Solipsism.Online"
+    url: https://solipsism.online/
   - title: "Play now!"
     url: https://fulck.com/play
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
