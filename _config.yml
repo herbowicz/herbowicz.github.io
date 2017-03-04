@@ -82,12 +82,12 @@ author:
   bio              : "Full-Time Father"
   location         : "Wrocław, Poland"
   email            : "herbowicz@gmail.com"
-  uri              : "http://herbo.pl"
+  uri              :
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         : "herbowitz"
+  facebook         :
   foursquare       :
   github           : "herbowicz"
   google_plus      :
@@ -100,7 +100,7 @@ author:
   stackoverflow    : "3603905/greg"
   steam            :
   tumblr           :
-  twitter          : "herbowicz"
+  twitter          : 
   vine             :
   weibo            :
   xing             :
