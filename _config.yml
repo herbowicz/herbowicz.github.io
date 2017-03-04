@@ -81,7 +81,7 @@ author:
   avatar           : "http://herbo.pl/gh.jpg"
   bio              : "Full-Time Father"
   location         : "Wrocław, Poland"
-  email            : "herbowicz@gmail.com"
+  email            : 
   uri              :
   bitbucket        :
   codepen          :
@@ -100,7 +100,7 @@ author:
   stackoverflow    : "3603905/greg"
   steam            :
   tumblr           :
-  twitter          : 
+  twitter          :
   vine             :
   weibo            :
   xing             :
