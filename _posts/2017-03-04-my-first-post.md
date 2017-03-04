@@ -5,6 +5,8 @@ Category: Websites
 tags: [how2spend]
 lang: en-EN
 ---
-My recent project: [how2spend.com](https://how2spend.com)
-<br>
+My recent project:
+
+## [https://how2spend.com](https://how2spend.com)
+
 A Never-Ending Source of Shopping Inspiration
