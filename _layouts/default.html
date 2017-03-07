@@ -19,10 +19,35 @@
     {% include browser-upgrade.html %}
     {% include masthead.html %}
     
-    <a href="https://github.com/herbowicz">
-      <img style="position: absolute; top: 0; right: 0; border: 0; z-index:5;" 
-           src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67"
-           alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"></a>
+<div style="
+  background-color: #a00;
+  overflow: hidden;
+  white-space: nowrap;
+  position: absolute;
+  right: -50px;
+  top: 40px;
+  -webkit-transform: rotate(45deg);
+     -moz-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+       -o-transform: rotate(45deg);
+          transform: rotate(45deg);
+   -webkit-box-shadow: 0 0 10px #888;
+     -moz-box-shadow: 0 0 10px #888;
+          box-shadow: 0 0 10px #888;
+  text-shadow: 0 0 5px #444;
+}
+
+.ribbon a {
+  border: 1px solid #faa;
+  color: #fff;
+  display: block;
+  font: bold 81.25% 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin: 1px 0;
+  padding: 10px 50px;
+  text-align: center;
+  text-decoration: none;">
+  <a href="https://github.com/rgardler/rgardler.github.io">Fork me on GitHub</a>
+</div>
 
     {{ content }}
 
