@@ -5,7 +5,7 @@ Category: Websites
 tags: [hello]
 lang: en-EN
 ---
-To start with and check localhost:8080...
+To start with... check localhost:1234
 
 {% highlight javascript %}
 
