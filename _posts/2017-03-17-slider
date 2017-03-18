@@ -1,11 +1,11 @@
  ---
 layout: single
-title: 'Hello Node.js'
+title: 'Simple slider'
 Category: Websites
 tags: [hello]
 lang: en-EN
 ---
-Simple slider. As simple as it can be, but not simpler.
+A simple slider. As simple as it can be, but not simpler.
 
 {% highlight javascript %} 
 var buttons = document.querySelectorAll('button');
