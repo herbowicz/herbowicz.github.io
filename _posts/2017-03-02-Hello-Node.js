@@ -2,7 +2,7 @@
 layout: single
 title: 'Hello Node.js'
 Category: Websites
-tags: [hello]
+tags: [node.js]
 lang: en-EN
 ---
 To start with... check localhost:1234
