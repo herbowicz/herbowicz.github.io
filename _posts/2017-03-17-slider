@@ -7,8 +7,9 @@ lang: en-EN
 ---
 A simple slider. As simple as it can be, but not simpler.
 
-{% highlight javascript %} 
-var buttons = document.querySelectorAll('button');
+    {% highlight javascript %} 
+
+    var buttons = document.querySelectorAll('button');
     var sliderImg = document.querySelectorAll('li');
     var imgNumber = 0;
     sliderImg[0].classList.add('visible');
@@ -27,4 +28,5 @@ var buttons = document.querySelectorAll('button');
         sliderImg[prevNumber].classList.remove('visible');
         sliderImg[imgNumber].classList.add('visible');
     }
-    {% endhighlight %} 
+    
+   {% endhighlight %} 
