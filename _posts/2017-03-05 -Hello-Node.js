@@ -1,3 +1,10 @@
+---
+layout: single
+title: 'Hello Node.js'
+Category: Websites
+tags: [hello]
+lang: en-EN
+---
 To start with and check localhost:8080...
 
 {% highlight javascript %}
