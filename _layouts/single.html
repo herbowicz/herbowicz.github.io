@@ -57,9 +57,9 @@ comments: true
     </div>
 
     {% if site.comments.provider and page.comments %}
-      {% include disqus.html %} 
       {% include comments.html %}
     {% endif %}
+      {% include disqus.html %} 
   </article>
 
   {% comment %}<!-- only show related on a post page when not disabled -->{% endcomment %}
