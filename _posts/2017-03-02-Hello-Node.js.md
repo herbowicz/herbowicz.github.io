@@ -1,5 +1,6 @@
 ---
 layout: single
+comments: true
 title: 'Hello Node.js'
 Category: Websites
 tags: [node.js]
