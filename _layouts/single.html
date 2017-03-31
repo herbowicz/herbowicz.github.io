@@ -56,6 +56,7 @@ layout: default
     </div>
 
     {% if site.comments.provider and page.comments %}
+      {% include disqus.html %} 
       {% include comments.html %}
     {% endif %}
   </article>
@@ -74,4 +75,4 @@ layout: default
     </div>
   {% endif %}
 </div>
-{% include disqus.html %} 
+
