@@ -38,6 +38,7 @@ npm start
 cd src
 edit App.js    
 ```
+
 Edit these two lines of code:
     <h2>Welcome to React</h2>
     To get started, edit src/App.js and save to reload.        
@@ -75,7 +76,9 @@ domain:  //domain of your choice
 
 There you have it. Your first React application should be online now at your chosen URL (your-domain.surge.sh).
 
-There are plenty of tutorials how to create React application but they all seem to miss one point: they don't show immediate results. Beginners are likely to get confused about the whole process. In this short tutorial, I showed you how to build a basic React app and have it working under a custom URL. It will not make you a dev right away, but may encourage you to learn more, and soon become one. In short:
+There are plenty of tutorials how to create React application but they all seem to miss one point: they don't show immediate results. Beginners are likely to get confused about the whole process. In this short tutorial, I showed you how to build a basic React app and have it working under a custom URL. It will not make you a dev right away, but may encourage you to learn more, and soon become one. 
+
+In short:
 ```bash
 npm create-react my-app
 cd my-app/src
