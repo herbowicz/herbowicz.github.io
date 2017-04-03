@@ -1,7 +1,7 @@
 ---
 layout: single
 comments: true
-title: 'React app online in 10 easy steps'
+title: 'React.js app online in 10 easy steps'
 Category: Tutorial
 tags: [React]
 lang: en-EN
@@ -19,7 +19,7 @@ node -v
 npm -v    
 ```
 
-4. Now install the main React appplication template with just one line of code:
+4. Now install the main React.js appplication template with just one line of code:
 ```bash
 npm create-react-app my-app    
 ```
@@ -76,7 +76,7 @@ project path:  //path to your /build folder
 domain:  //domain of your choice    
 ```
 
-There you have it! Your first React application should be online now at your chosen URL (your-domain.surge.sh).
+There you have it! Your first React.js application should be online now at your chosen URL (your-domain.surge.sh).
 
 There are plenty of tutorials how to create React application but they all seem to miss one point: they don't show immediate results. Beginners are likely to get confused about the whole process. In this short tutorial, I showed you how to build a basic React app and have it working under a custom URL. This will not make you a dev right away, but may encourage you to learn more, and soon become one. 
 
