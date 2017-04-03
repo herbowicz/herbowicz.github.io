@@ -6,7 +6,7 @@ Category: Tutorial
 tags: [React]
 lang: en-EN
 ---
-Create, test and build your first React app, and deploy it on the web in 10 easy steps. Tutorial for Beginners. It should take less than 30 minutes to complete.
+Tutorial for Beginners. Create, test and build your first React app, and deploy it on the web in 10 easy steps. It should take less than 30 minutes to complete.
 
 There are plenty of tutorials how to create React application but they all seem to miss one point: they don't show immediate results, so beginners are likely to get confused about the whole process. 
 In this short tutorial, I show how to build a basic React app and have working under a custom URL. It will not make you a developer right away, but may encourage you to learn more, and soon becoming one.
