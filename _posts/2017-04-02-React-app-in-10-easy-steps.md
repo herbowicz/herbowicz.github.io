@@ -39,27 +39,27 @@ cd src
 edit App.js    
 ```
 Edit these two lines of code:
-```html
-<h2>Welcome to React</h2>
-To get started, edit src/App.js and save to reload.        
-```
+
+    <h2>Welcome to React</h2>
+    To get started, edit src/App.js and save to reload.        
+
 To something of your choice, eg.:
-```html
-<h2>Hello world!</h2>
-This is my first React App.         
-```
+
+    <h2>Hello world!</h2>
+    This is my first React App.         
+
 Save and Exit. 
 (You can use your editor, instead. You may also want to change other files like App.css or logo.svg)
 
 8. Check again if your changes are effective now:  <http://localhost:3000/>
 
-9. Build you app:
+9. Now build you app:
 ```bash
 npm run build    
 ```
 This will create a /build folder with your app.
 
-10. It's time to show your app to the world! The fastest way to deploy is to use <http://surge.sh> free option. Install it first:
+10. It's time to show your app to the world! The fastest way to deploy is with <http://surge.sh> free option. Install it first:
 ```bash
 npm install -g surge    
 ```
