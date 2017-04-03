@@ -6,7 +6,7 @@ Category: Tutorial
 tags: [React]
 lang: en-EN
 ---
-Tutorial for Beginners. Create and build your first React app. Deploy on the web in the shortest way possible. The process should take less than 30 minutes to complete. Follow these instructions:
+Tutorial for Beginners. Create and build your first React app. Deploy on the web in the shortest way possible. This process should take less than 30 minutes to complete. Follow these instructions:
 
 1. Install Node.js 
     Download your version of Node.js from <https://nodejs.org/en/download/> and click to install it.
@@ -44,21 +44,21 @@ Tutorial for Beginners. Create and build your first React app. Deploy on the web
 
     Edit this 2 lines of code:
 
-        {% highlight bash %}
-        <h2>Welcome to React</h2>
-        To get started, edit src/App.js and save to reload.        {% endhighlight %}
+    {% highlight bash %}
+    <h2>Welcome to React</h2>
+    To get started, edit src/App.js and save to reload.        {% endhighlight %}
 
     To something of your choice, eg.:
 
-        {% highlight bash %}
-        <h2>Hello world!</h2>
-        This is my first React App.         {% endhighlight %}
+    {% highlight bash %}
+    <h2>Hello world!</h2>
+    This is my first React App.         {% endhighlight %}
 
     Save and Exit. 
-    (You can use your editor, instead.
-     You may also want to change logo.svg or edit App.css.)
+    (You can use your editor, instead. You may also want to change other files like App.css or logo.svg)
 
-8. Check again if your changes are effective now:    <http://localhost:3000/>
+8. Check again if your changes are effective now:    
+    <http://localhost:3000/>
 
 9. Build you app:
     {% highlight bash %}
