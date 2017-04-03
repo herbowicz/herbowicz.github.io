@@ -6,32 +6,28 @@ Category: Tutorial
 tags: [React]
 lang: en-EN
 ---
-Tutorial for Beginners. Create, test and build your first React app, and deploy it on the web in 10 easy steps. It should take less than 30 minutes to complete.
-
-There are plenty of tutorials how to create React application but they all seem to miss one point: they don't show immediate results. Beginners are likely to get confused about the whole process. In this short tutorial, I show how to build a basic React app and have it working under a custom URL. It will not make you a developer right away, but may encourage you to learn more, and soon becoming one.
-
-Follow these instructions:
+Tutorial for Beginners. Create, test and build your first React app, and deploy it on the web in the shortest way. It should take less than 30 minutes to complete. Follow these instructions:
 
 1. Install Node.js 
-Download your version of Node.js from {{https://nodejs.org/en/download/}} and click to install it.
+Download your version of Node.js from <https://nodejs.org/en/download/> and click to install it.
 
-+ Open console: Start > cmd - cmd.exe
+2. Open console: Start > cmd - cmd.exe
 
-+ You should have Node and npm (comes in a packeage) already installed now. Check:
+3. You should have Node and npm (comes in a packeage) already installed now. Check:
 {% highlight bash %}
 node -v
 npm -v
 {% endhighlight %}
 Each of these commands should give the version number.
 
-+ Now install the main React appplication template with just one line of code:
+4. Now install the main React appplication template with just one line of code:
 {% highlight bash %}
 npm create-react my-app
 {% endhighlight %}
 
 It may take you a couple minutes to have your app ready.
 
-+ Once installed go inside the folder:
+5. Once installed go inside the folder:
 {% highlight bash %}
 cd my-app
 {% endhighlight %}
@@ -41,11 +37,11 @@ And start the application:
 npm start
 {% endhighlight %}
 
-+ Now open the browser:
+6. Now open the browser:
 http://localhost:3000/
 You should see "Welcome to React" screen.
 
-+ Make some changes of your choice to the app now. Stop the server in console (Ctrl+C, Y) and type:
+7. Make some changes of your choice to the app now. Stop the server in console (Ctrl+C, Y) and type:
 {% highlight bash %}
 cd src
 edit App.js
@@ -69,18 +65,18 @@ Save and Exit.
 (You can use your editor, instead.
  You may also want to change logo.svg or edit App.css.)
 
-+ Check again at:
-http://localhost:3000/
-if your changes are effective now.
+8. Check again if your changes are effective now:
+<http://localhost:3000/>
 
-+ Build you app:
+
+9. Build you app:
 {% highlight bash %}
 npm run build
 {% endhighlight %}
 
 This will create /build folder with your app.
 
-+ It's time to show your app to the world! Easiest way to deploy is  to use htpp://surge.sh free option. Install it first:
+10. It's time to show your app to the world! The fastest way to deploy is to use <htpp://surge.sh> free option. Install it first:
 
 {% highlight bash %}
 npm install -g surge
@@ -100,8 +96,8 @@ domain:  //domain of your choice
 {% endhighlight %}
 
 There you have it. Your first React application should be online now at your chosen URL (your-domain.surge.sh).
-This is the easied way to build your first React application. Good luck and have fun! 
-Let me know if it worked for you in the comments below.
+
+There are plenty of tutorials how to create React application but they all seem to miss one point: they don't show immediate results. Beginners are likely to get confused about the whole process. In this short tutorial, I showed you how to build a basic React app and have it working under a custom URL. It will not make you a developer right away, but may encourage you to learn more, and soon becoming one.
 
 In short:
 {% highlight bash %}
@@ -112,3 +108,6 @@ npm run build
 npm install -g surge
 surge
 {% endhighlight %}
+
+This is the easied way to build your first React application. Good luck and have fun! 
+Let me know if it worked for you in the comments below.
