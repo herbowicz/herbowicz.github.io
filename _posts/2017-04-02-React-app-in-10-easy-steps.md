@@ -33,8 +33,8 @@ npm start
 ```
 
 6. Now open the browser: 
-    <http://localhost:3000/>
-You should see "Welcome to React" screen.
+<http://localhost:3000/>
+You should see the "Welcome to React" screen.
 
 7. Make some changes of your choice to the app now. Stop the server in console (Ctrl+C, Y) and type:
 ```bash
