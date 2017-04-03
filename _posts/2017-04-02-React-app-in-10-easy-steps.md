@@ -13,7 +13,7 @@ Download your version of Node from <https://nodejs.org/en/download/> and click t
 
 2. Open console: Start > cmd - cmd.exe
 
-3. You should have Node.js and npm (comes in the packeage) already installed now. Check version number:
+3. You should have Node.js and npm (comes in the packeage) already installed now. Check their version numbers:
 ```bash
 node -v
 npm -v    
