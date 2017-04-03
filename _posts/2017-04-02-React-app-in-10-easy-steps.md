@@ -23,8 +23,7 @@ npm -v
 ```bash
 npm create-react my-app    
 ```
-
-It may take a minute to have your app ready.
+  It may take a minute to have your app ready.
 
 5. Once installed, change the folder and start the application:
 ```bash
@@ -33,8 +32,8 @@ npm start
 ```
 
 6. Now open the browser: 
-<http://localhost:3000/>
-You should see the "Welcome to React" screen.
+  <http://localhost:3000/>
+  You should see the "Welcome to React" screen.
 
 7. Make some changes of your choice to the app now. Stop the server in console (Ctrl+C, Y) and type:
 ```bash
