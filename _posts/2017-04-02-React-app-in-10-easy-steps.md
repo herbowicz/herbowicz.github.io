@@ -38,21 +38,20 @@ npm start
 cd src
 edit App.js    
 ```
-  Edit these two lines of code:
-  ```bash
-  <h2>Welcome to React</h2>
-  To get started, edit src/App.js and save to reload.        
-  ```
-  To something of your choice, eg.:
-  ```bash
-  <h2>Hello world!</h2>
-  This is my first React App.         
-  ```
-  Save and Exit. 
-  (You can use your editor, instead. You may also want to change other files like App.css or logo.svg)
+Edit these two lines of code:
+```html
+<h2>Welcome to React</h2>
+To get started, edit src/App.js and save to reload.        
+```
+To something of your choice, eg.:
+```html
+<h2>Hello world!</h2>
+This is my first React App.         
+```
+Save and Exit. 
+(You can use your editor, instead. You may also want to change other files like App.css or logo.svg)
 
-8. Check again if your changes are effective now:    
-<http://localhost:3000/>
+8. Check again if your changes are effective now:  <http://localhost:3000/>
 
 9. Build you app:
 ```bash
@@ -64,12 +63,10 @@ This will create a /build folder with your app.
 ```bash
 npm install -g surge    
 ```
-
 Now just type:
 ```bash
 surge    
 ```
-
 Provide your:
 ```bash
 email:
