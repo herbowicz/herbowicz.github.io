@@ -40,13 +40,19 @@ edit App.js
 ```
 
 Edit these two lines of code:
+    
+    ```html
     <h2>Welcome to React</h2>
     To get started, edit src/App.js and save to reload.        
-
+    ```
+    
 To something of your choice, eg.:
+    
+    ```html
     <h2>Hello world!</h2>
     This is my first React App.         
-
+    ```
+    
 Save and Exit. 
 (You can use your editor, instead. You may also want to change other files like App.css or logo.svg)
 
