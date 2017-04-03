@@ -19,10 +19,12 @@ node -v
 npm -v    
 {% endhighlight %}
 
-4. Now install the main React appplication template with just one line of code. It may take you a couple minutes to have your app ready.
+4. Now install the main React appplication template with just one line of code.
 {% highlight bash %}
 npm create-react my-app    
 {% endhighlight %}
+
+It may take you a couple minutes to have your app ready.
 
 5. Once installed, change the folder and start the application.
 {% highlight bash %}
@@ -31,7 +33,7 @@ npm start
 {% endhighlight %}
 
 6. Now open the browser: 
-<http://localhost:3000/>
+    <http://localhost:3000/>
 You should see "Welcome to React" screen.
 
 7. Make some changes of your choice to the app now. Stop the server in console (Ctrl+C, Y) and type:
