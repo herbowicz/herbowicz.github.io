@@ -21,7 +21,7 @@ npm -v
 
 4. Now install the main React appplication template with just one line of code:
 ```bash
-npm create-react my-app    
+npm create-react-app my-app    
 ```
   It may take a minute to have your app ready.
 
@@ -31,32 +31,25 @@ cd my-app
 npm start    
 ```
 
-6. Now open the browser: 
-  <http://localhost:3000/>
-  You should see the "Welcome to React" screen.
+6. Now open the browser: <http://localhost:3000/> and you should see the "Welcome to React" screen.
 
 7. Make some changes of your choice to the app now. Stop the server in console (Ctrl+C, Y) and type:
 ```bash
 cd src
 edit App.js    
 ```
-
-Edit these two lines of code:
-
-```bash
-<h2>Welcome to React</h2>
-To get started, edit src/App.js and save to reload.        
-```
-
-To something of your choice, eg.:
-
-```bash
-<h2>Hello world!</h2>
-This is my first React App.         
-```
-
-Save and Exit. 
-(You can use your editor, instead. You may also want to change other files like App.css or logo.svg)
+  Edit these two lines of code:
+  ```bash
+  <h2>Welcome to React</h2>
+  To get started, edit src/App.js and save to reload.        
+  ```
+  To something of your choice, eg.:
+  ```bash
+  <h2>Hello world!</h2>
+  This is my first React App.         
+  ```
+  Save and Exit. 
+  (You can use your editor, instead. You may also want to change other files like App.css or logo.svg)
 
 8. Check again if your changes are effective now:    
 <http://localhost:3000/>
@@ -65,7 +58,6 @@ Save and Exit.
 ```bash
 npm run build    
 ```
-
 This will create a /build folder with your app.
 
 10. It's time to show your app to the world! The fastest way to deploy is to use <http://surge.sh> free option. Install it first:
