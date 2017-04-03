@@ -1,7 +1,7 @@
 ---
 layout: single
 comments: true
-title: 'Your first React app online in 10 easy steps'
+title: 'React app online in 10 easy steps'
 Category: Tutorial
 tags: [React]
 lang: en-EN
