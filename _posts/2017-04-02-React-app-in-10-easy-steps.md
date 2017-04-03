@@ -39,19 +39,17 @@ cd src
 edit App.js    
 ```
 Edit these two lines of code:
-
     <h2>Welcome to React</h2>
     To get started, edit src/App.js and save to reload.        
 
 To something of your choice, eg.:
-
     <h2>Hello world!</h2>
     This is my first React App.         
 
 Save and Exit. 
 (You can use your editor, instead. You may also want to change other files like App.css or logo.svg)
 
-8. Check again if your changes are effective now:  <http://localhost:3000/>
+8. Make sure that your changes are effective:  <http://localhost:3000/>
 
 9. Now build you app:
 ```bash
