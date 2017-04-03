@@ -9,24 +9,24 @@ lang: en-EN
 Tutorial for Beginners. Create and build your first React app. Deploy on the web in the shortest way possible. This process should take less than 30 minutes to complete. Follow these instructions:
 
 1. Install Node.js 
-Download your version of Node.js from <https://nodejs.org/en/download/> and click to install it.
+Download your version of Node from <https://nodejs.org/en/download/> and click to install it.
 
 2. Open console: Start > cmd - cmd.exe
 
-3. You should have Node and npm (comes in a packeage) already installed now. Below commands should give the version number. Check:
+3. You should have Node.js and npm (comes in the packeage) already installed now. Check version number:
 {% highlight bash %}
 node -v
 npm -v    
 {% endhighlight %}
 
-4. Now install the main React appplication template with just one line of code.
+4. Now install the main React appplication template with just one line of code:
 {% highlight bash %}
 npm create-react my-app    
 {% endhighlight %}
 
-It may take you a couple minutes to have your app ready.
+It may take a minute to have your app ready.
 
-5. Once installed, change the folder and start the application.
+5. Once installed, change the folder and start the application:
 {% highlight bash %}
 cd my-app    
 npm start    
@@ -42,7 +42,7 @@ cd src
 edit App.js    
 {% endhighlight %}
 
-Edit this 2 lines of code:
+Edit these two lines of code:
 
 {% highlight bash %}
 <h2>Welcome to React</h2>
@@ -67,7 +67,7 @@ Save and Exit.
 npm run build    
 {% endhighlight %}
 
-This will create /build folder with your app.
+This will create a /build folder with your app.
 
 10. It's time to show your app to the world! The fastest way to deploy is to use <http://surge.sh> free option. Install it first:
 {% highlight bash %}
