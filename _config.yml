@@ -78,7 +78,7 @@ analytics:
 # Site Author
 author:
   name             : "Grzegorz Herbowicz"
-  avatar           : "https://solipsyzm.pl/diogenes.png"
+  avatar           : "https://fulck.com/gh.jpg" # "https://solipsyzm.pl/diogenes.png"
   bio              : "Greg's blog"
   location         : "Wrocław, Poland"
   email            : 
