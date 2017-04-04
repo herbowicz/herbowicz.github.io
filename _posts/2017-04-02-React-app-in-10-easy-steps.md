@@ -6,7 +6,7 @@ Category: Tutorial
 tags: [React]
 lang: en-EN
 ---
-Tutorial for Beginners. Create and build your first React.js app. Deploy to the web in the fastest way possible. This process should take less than 30 minutes to complete. Follow these instructions:
+Tutorial for Beginners. Create and build your first React.js app. Deploy to the web in the fastest way possible. The process should take less than 30 minutes to complete. Follow these instructions:
 
 1. Install Node.js 
 Download your version of Node from <https://nodejs.org/en/download/> and click to install it.
