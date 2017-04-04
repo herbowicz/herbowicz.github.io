@@ -1,12 +1,12 @@
 ---
 layout: single
 comments: true
-title: 'React.js app online in 10 easy steps'
+title: 'React app online in 10 easy steps'
 Category: Tutorial
 tags: [React]
 lang: en-EN
 ---
-Tutorial for Beginners. Create and build your first React app. Deploy on the web in the fastest way possible. This process should take less than 30 minutes  to complete. Follow these instructions:
+Tutorial for Beginners. Create and build your first React.js app. Deploy to the web in the fastest way possible. This process should take less than 30 mins to complete. Follow these instructions:
 
 1. Install Node.js 
 Download your version of Node from <https://nodejs.org/en/download/> and click to install it.
@@ -78,7 +78,7 @@ domain:  //domain of your choice
 
 There you have it! Your first React.js application should be online now at your chosen URL (your-domain.surge.sh).
 
-There are plenty of tutorials how to create React application but they all seem to miss one point: they don't show immediate results. Beginners are likely to get confused about the whole process. In this short tutorial, I showed you how to build a basic React app and have it working under a custom URL. This will not make you a dev right away, but may encourage you to learn more, and soon become one. 
+There are plenty of tutorials how to create React application but they all seem to miss one point: they don't show immediate results. Beginners are likely to get confused as the number of available tools, patterns and frameworks is growing exponentially. In this short tutorial, I show how to build a basic React app, deploy and have it running under a custom URL. Surprisingly, you don't need to use JSX, ES6 or any JS code at all. This tutorial will not make you a dev right away, but may encourage you to learn more, and soon become one. 
 
 In short:
 ```bash
