@@ -33,7 +33,7 @@ npm start
 
 6. Now open the browser: <http://localhost:3000/> and you should see the "Welcome to React" screen.
 
-7. Customize the app now. Stop the server (Ctrl+C, Y) and type:
+7. Customize the app now. Stop the server (click Ctrl+C twice) and type:
 ```bash
 cd src
 edit App.js    
@@ -50,15 +50,15 @@ edit App.js
         This is my first React App.         
 
     Save and Exit. 
-    (You can use editor of you choice, instead. You may also want to change other files like App.css or logo.svg)
+    (You can use editor of your choice, instead. You may also want to change other files like App.css or logo.svg)
 
 8. Make sure that your changes are effective:  <http://localhost:3000/>
 
-9. Now build you app:
+9. Now build your app:
 ```bash
 npm run build    
 ```
-This will create a /build folder with your app.
+This will create a folder /build with your app inside.
 
 10. It's time to show your app to the world! The fastest way to deploy is with <http://surge.sh> free option. Install it first:
 ```bash
