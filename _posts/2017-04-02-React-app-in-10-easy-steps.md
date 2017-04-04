@@ -58,7 +58,7 @@ edit App.js
 ```bash
 npm run build    
 ```
-This will create a folder /build with your app inside.
+This will create /build folder with your app inside.
 
 10. It's time to show your app to the world! The fastest way to deploy is with <http://surge.sh> free option. Install it first:
 ```bash
