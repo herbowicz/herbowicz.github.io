@@ -50,7 +50,7 @@ edit App.js
         This is my first React App.         
 
     Save and Exit. 
-    (You can use editor of your choice, instead. You may also want to change other files like App.css or logo.svg)
+    (You can use preferred editor, instead. You may also want to change other files like App.css or logo.svg)
 
 8. Make sure that your changes are effective:  <http://localhost:3000/>
 
