@@ -8,7 +8,7 @@ lang: en-EN
 ---
 Tutorial for Beginners. Create and build your first React.js app. Deploy to the web in the fastest way possible. The process should take less than 30 minutes to complete. 
 
-React is a modern, very popular, state-of-art JavaScript framework invented by Facebook for building user interfaces. Is an open source project used by such giants like Instagram, Airbnb, Dropbox, Imgur and Netflix. Everyone seems to be talking about React now! If you want to have your own React application online, follow these instructions:
+React is a modern, very popular, state-of-art JavaScript framework invented by Facebook for building user interfaces. Is an open source project used by such giants like Instagram, Airbnb, Imgur, IMDb and Netflix. Everyone seems to be talking about React now! If you want to have your own React application online, follow these instructions:
 
 1. Install Node.js 
 Download your version of Node from <https://nodejs.org/en/download/> and click to install it.
