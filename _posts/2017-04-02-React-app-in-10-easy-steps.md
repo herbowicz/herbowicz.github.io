@@ -94,3 +94,9 @@ surge
 
 That's the easiest way to build your first React app. Good luck and have fun! 
 Let me know if it worked for you in the comments below.
+
+<h2>Next steps</h2>
+Try to comprehend what's going on in this picture:
+![Process flow in React.js](https://cdn-images-1.medium.com/max/2000/1*J5XOQh2WKIl0NFTAMvcVbQ.png){:class="img-responsive"} 
+
+That's React in a nutshell. You may also try [https://facebook.github.io/react/tutorial/tutorial.html](the official tutorial). 
