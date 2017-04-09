@@ -2,8 +2,6 @@
 main:
   - title: "History Quiz"
     url: https://apps.facebook.com/history-quiz/
-  - title: "Wrocław Koduje"
-    url: https://www.facebook.com/WroclawKoduje/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
