@@ -80,7 +80,7 @@ domain:  //domain of your choice
 
 There you have it! Your first React.js application should be online now at your chosen URL (your-domain.surge.sh).
 
-There are plenty of tutorials how to create React application but they all seem to miss one point by not showing the immediate results. Beginners are likely to get confused as the number of available tools, patterns and frameworks is growing exponentially. In this short tutorial, I have shown how to build a basic React app, deploy and have it running under a custom URL. Surprisingly, you don't need to write JSX, ES6 or even any JavaScript code at all! This tutorial will not make you a dev right away, but may encourage you to learn more, and soon become one. 
+<small>There are plenty of tutorials how to create React application but they all seem to miss one point by not showing the immediate results. Beginners are likely to get confused as the number of available tools, patterns and frameworks is growing exponentially. In this short tutorial, I have shown how to build a basic React app, deploy and have it running under a custom URL. Surprisingly, you don't need to write JSX, ES6 or even any JavaScript code at all! This tutorial will not make you a dev right away, but may encourage you to learn more, and soon become one.</small>
 
 In short:
 ```bash
