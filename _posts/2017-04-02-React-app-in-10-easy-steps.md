@@ -97,6 +97,6 @@ Let me know if it worked for you in the comments below.
 
 <h2>Next steps</h2>
 Try to comprehend what's going on in this picture:
-![Process flow in React.js](https://cdn-images-1.medium.com/max/2000/1*J5XOQh2WKIl0NFTAMvcVbQ.png){:class="img-responsive"} 
+[![Process flow in React.js](https://cdn-images-1.medium.com/max/2000/1*J5XOQh2WKIl0NFTAMvcVbQ.png){:class="img-responsive"}](https://cdn-images-1.medium.com/max/2000/1*J5XOQh2WKIl0NFTAMvcVbQ.png)
 
 That's React.js in a nutshell. You may also try [the official tutorial](https://facebook.github.io/react/docs/hello-world.html). 
