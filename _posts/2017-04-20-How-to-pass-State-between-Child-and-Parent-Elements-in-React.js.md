@@ -7,7 +7,7 @@ tags: [React, JavaScript]
 lang: en-EN
 ---
 
-Message from Parent Component is passed downward to Child. Count from Child Component is passed upward to Parent.
+Message from Parent Component is passed downward to Child. Count from Child Component is passed upward to Parent. A boilerplate to demonstrate how to pass State both ways.
 ```jsx
 class Child extends React.Component {
     constructor(props){
