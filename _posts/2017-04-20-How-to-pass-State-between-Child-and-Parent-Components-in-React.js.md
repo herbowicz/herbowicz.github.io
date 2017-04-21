@@ -7,9 +7,9 @@ tags: [React, JavaScript]
 lang: en-EN
 ---
 
-Message from Parent Component is passed downward to Child. Count from Child Component is passed upward to Parent. This example demonstrates how to pass State both ways.
+Message from Parent Component is passed downward to Child. Count from Child Component is passed upward to Parent. This example demonstrates how to pass State both ways. 
 
-<p data-height="265" data-theme-id="0" data-slug-hash="jmqdbx" data-default-tab="result" data-user="herbowicz" data-embed-version="2" data-pen-title="jmqdbx" class="codepen">See the Pen <a href="https://codepen.io/herbowicz/pen/jmqdbx/">jmqdbx</a> by Herbowicz (<a href="http://codepen.io/herbowicz">@herbowicz</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<p data-height="320" data-theme-id="0" data-slug-hash="jmqdbx" data-default-tab="result" data-user="herbowicz" data-embed-version="2" data-pen-title="jmqdbx" class="codepen">See the Pen <a href="https://codepen.io/herbowicz/pen/jmqdbx/">jmqdbx</a> by Herbowicz (<a href="http://codepen.io/herbowicz">@herbowicz</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 ```jsx
 class Child extends React.Component {
@@ -64,4 +64,4 @@ ReactDOM.render(
 );    
 ```
 
-That's the easiest way to show in one example how to pass State both ways in React.js between Parent and Child. A useful boilerplate to experiment with your own projects. Enjoy!
+That's the easiest way to show in one example how to pass State both ways in React.js between Parent and Child. A useful boilerplate to experiment with your own projects. Enjoy! [Demo](https://codepen.io/herbowicz/pen/jmqdbx)
