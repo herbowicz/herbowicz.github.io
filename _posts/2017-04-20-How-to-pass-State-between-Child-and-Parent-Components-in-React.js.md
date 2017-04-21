@@ -1,7 +1,7 @@
 ---
 layout: single
 comments: true
-title: 'How to pass State both ways between Child and Parent Elements in React.js'
+title: 'How to pass State both ways between Child and Parent Components in React.js'
 Category: Tutorial
 tags: [React, JavaScript]
 lang: en-EN
