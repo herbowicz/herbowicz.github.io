@@ -61,3 +61,5 @@ ReactDOM.render(
     document.getElementById('app')
 );    
 ```
+
+That's the easiest way to show in one example how to pass State in React both ways. Enjoy!
