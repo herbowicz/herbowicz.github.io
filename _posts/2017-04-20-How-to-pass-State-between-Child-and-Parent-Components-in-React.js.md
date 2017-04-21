@@ -8,6 +8,9 @@ lang: en-EN
 ---
 
 Message from Parent Component is passed downward to Child. Count from Child Component is passed upward to Parent. This example demonstrates how to pass State both ways.
+
+<p data-height="265" data-theme-id="0" data-slug-hash="jmqdbx" data-default-tab="result" data-user="herbowicz" data-embed-version="2" data-pen-title="jmqdbx" class="codepen">See the Pen <a href="https://codepen.io/herbowicz/pen/jmqdbx/">jmqdbx</a> by Herbowicz (<a href="http://codepen.io/herbowicz">@herbowicz</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 ```jsx
 class Child extends React.Component {
     constructor(props){
