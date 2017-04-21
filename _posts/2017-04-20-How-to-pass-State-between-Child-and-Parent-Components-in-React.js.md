@@ -9,59 +9,7 @@ lang: en-EN
 
 Message from Parent Component is passed downward to Child. Count from Child Component is passed upward to Parent. This example demonstrates how to pass State both ways. 
 
-<p data-height="320" data-theme-id="0" data-slug-hash="jmqdbx" data-default-tab="result" data-user="herbowicz" data-embed-version="2" data-pen-title="jmqdbx" class="codepen">See the Pen <a href="https://codepen.io/herbowicz/pen/jmqdbx/">jmqdbx</a> by Herbowicz (<a href="http://codepen.io/herbowicz">@herbowicz</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<p data-height="320" data-theme-id="0" data-slug-hash="jmqdbx" data-default-tab="js,result" data-user="herbowicz" data-embed-version="2" data-pen-title="jmqdbx" class="codepen">See the Pen <a href="http://codepen.io/herbowicz/pen/jmqdbx/">jmqdbx</a> by Herbowicz (<a href="http://codepen.io/herbowicz">@herbowicz</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
-```jsx
-class Child extends React.Component {
-    constructor(props){
-        super(props);
-        this.state = {
-            countChild: 0
-        }
-    }
-    render() {
-        return( <div>
-            <h2>Child Component</h2>
-            <p>Message is from Parent: {this.props.currentInput}</p>
-            <button onClick={this.props.add}>Child Button</button>
-                </div>
-        );
-    }
-}
 
-class Parent extends React.Component {
-    constructor(props){
-        super(props);
-        this.state = {
-            countParent: 0,
-            input: ''
-        }
-    }
-    add() {
-        this.setState({
-            countParent: this.state.countParent + 1
-        })
-    }
-    handleChange(e) {
-        this.setState({
-            input: e.target.value
-        })
-    }
-    render() {
-        return( <div>
-                    <h2>Parent Component</h2>
-                    <p>Count is from Child: {this.state.countParent}</p>
-                    <input placeholder="Parent Input" value={this.state.input} onChange={this.handleChange.bind(this)} />
-                    <Child add={this.add.bind(this)} currentInput={this.state.input} />
-                </div> 
-        );
-    }
-}
-
-ReactDOM.render(
-    <Parent />,
-    document.getElementById('app')
-);    
-```
-
-That's the easiest way to show in one example how to pass State both ways in React.js between Parent and Child. A useful boilerplate to experiment with your own projects. Enjoy! [Demo](https://codepen.io/herbowicz/pen/jmqdbx)
+That's the easiest way to show in one example how to pass State both ways in React.js between Parent and Child. A useful boilerplate to experiment with your own projects. Enjoy! 
