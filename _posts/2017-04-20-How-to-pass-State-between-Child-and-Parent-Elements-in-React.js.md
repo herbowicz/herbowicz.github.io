@@ -62,4 +62,4 @@ ReactDOM.render(
 );    
 ```
 
-That's the easiest way to show in one example how to pass State in React both ways. Enjoy!
+That's the easiest way to show in one example how to pass State in React.js between Parent and Child both ways. Enjoy!
