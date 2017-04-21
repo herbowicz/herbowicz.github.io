@@ -7,7 +7,6 @@ tags: [React, JavaScript]
 lang: en-EN
 ---
 
-The below example shows how to pass State both ways between Child and Parent Elements in React.js. 
 Message from Parent Component is passed downward to Child. Count from Child Component is passed upward to Parent.
 ```jsx
 class Child extends React.Component {
