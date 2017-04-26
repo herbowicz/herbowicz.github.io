@@ -1,9 +1,7 @@
-2017-04-25-Get-Github-users-by-name-using-basic-RestAPI
-
 ---
 layout: single
 comments: true
-title: 'Get Github users by name using basic RestAPI'
+title: 'Get Github users info using basic RestAPI'
 Category: Tutorial
 tags: [React, JavaScript]
 lang: en-EN
