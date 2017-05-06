@@ -1,7 +1,7 @@
 ---
 layout: single
 comments: true
-title: 'Get Github users info with RestAPI'
+title: 'Get Github users using React & RestAPI'
 Category: Tutorial
 tags: [React, JavaScript, RestAPI]
 lang: en-EN
