@@ -31,7 +31,7 @@ Here are some examples:
 [ellipse3](https://solipsyzm.pl/demo/index3.html), 
 [ellipse4](https://solipsyzm.pl/demo/index4.html), 
 [ellipse5](https://solipsyzm.pl/demo/index5.html), 
-[ellipse6](https://solipsyzm.pl/demo/index6.html), 
+[ellipse6](https://solipsyzm.pl/demo/index6.html) (my favourite), 
 [ellipse7](https://solipsyzm.pl/demo/index7.html), 
 [ellipse8](https://solipsyzm.pl/demo/index8.html), 
 [ellipse9](https://solipsyzm.pl/demo/index9.html). 
