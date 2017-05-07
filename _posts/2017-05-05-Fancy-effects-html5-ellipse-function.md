@@ -27,7 +27,6 @@ ctx.stroke() ;
 ```
 
 Here are some examples: 
-
 [1](https://solipsyzm.pl/demo/index.html) 
 [2](https://solipsyzm.pl/demo/index2.html)
 [3](https://solipsyzm.pl/demo/index3.html) 
