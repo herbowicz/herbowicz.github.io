@@ -35,6 +35,6 @@ Here are some examples:
 [ellipse8](https://solipsyzm.pl/demo/index8.html), 
 [ellipse9](https://solipsyzm.pl/demo/index9.html). 
 
-When you add random fill color, you can easily [draw Picasso-style paintings](https://solipsyzm.pl/demo/index10.html). (Wait approx. 20 sec. to complete.)
+When you add random fill color and some transparency, you can easily [draw Picasso-style paintings](https://solipsyzm.pl/demo/index10.html). (Please wait approx. 20 sec. to complete.)
 
 <small>Unfortunatelly, the ellipse function is now [only supported](http://caniuse.com/#search=ellipse) by Chrome, Safari and Opera.</small>
