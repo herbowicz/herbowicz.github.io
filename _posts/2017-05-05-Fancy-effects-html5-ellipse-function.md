@@ -21,6 +21,7 @@ ctx.beginPath() ;
   var anticlockwise = false;       // The direction the ellipse is drawn (optional)
     
 ctx.ellipse(x, y, rx, ry, rotation, start, end, anticlockwise);
+
 ctx.stroke() ;
 ```
 
