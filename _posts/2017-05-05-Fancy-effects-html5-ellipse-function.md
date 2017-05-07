@@ -7,7 +7,7 @@ tags: [html5]
 lang: en-EN
 ---
 
-This is what I like the most. Write just one line of code to get amaizing results. Experiment on your own, just change the following parameters:
+This is what I like the most. Write just one line of code to get amazing results. Experiment on your own by changing the following parameters:
 
 ```html5
 ctx.beginPath() ;
