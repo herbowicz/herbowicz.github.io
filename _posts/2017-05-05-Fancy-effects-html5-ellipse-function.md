@@ -27,14 +27,14 @@ ctx.stroke() ;
 ```
 
 Here are some examples: 
-[1](https://solipsyzm.pl/demo/index.html) 
-[2](https://solipsyzm.pl/demo/index2.html)
-[3](https://solipsyzm.pl/demo/index3.html) 
-[4](https://solipsyzm.pl/demo/index4.html) 
-[5](https://solipsyzm.pl/demo/index5.html) 
-[6](https://solipsyzm.pl/demo/index6.html) 
-[7](https://solipsyzm.pl/demo/index7.html) 
-[8](https://solipsyzm.pl/demo/index8.html) 
+[1](https://solipsyzm.pl/demo/index.html), 
+[2](https://solipsyzm.pl/demo/index2.html), 
+[3](https://solipsyzm.pl/demo/index3.html), 
+[4](https://solipsyzm.pl/demo/index4.html), 
+[5](https://solipsyzm.pl/demo/index5.html), 
+[6](https://solipsyzm.pl/demo/index6.html), 
+[7](https://solipsyzm.pl/demo/index7.html), 
+[8](https://solipsyzm.pl/demo/index8.html),  
 [9](https://solipsyzm.pl/demo/index9.html)
 
 Add random fil color to [draw Picasso-style paintings](https://solipsyzm.pl/demo/index10.html).
