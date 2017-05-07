@@ -7,7 +7,7 @@ tags: [React, JavaScript, RestAPI]
 lang: en-EN
 ---
 
-Type Username to get the info about Github users. Connected using Anxios. Updated on value input change. 
+Connected using Anxios. Updated on value input change. Type Username to get the info about Github users. 
 
 ```jsx
 import React from 'react';
