@@ -30,15 +30,8 @@ Here are some examples:
 
 [ctx.ellipse(canvas.width/2, canvas.height/2, 1, 3*i, i, 0, 2*Math.PI);](https://solipsyzm.pl/demo/index.html) 
 [ctx.ellipse(canvas.width/2, canvas.height/2, 10, 2*i, i, 0, 2*Math.PI);](https://solipsyzm.pl/demo/index2.html)
-[ctx.ellipse(canvas.width/2, canvas.height/2, i, 4*i, i, 0, 3*Math.PI);](https://solipsyzm.pl/demo/index3.html) 
-[ctx.ellipse(canvas.width/2, canvas.height/2, 2/i, i, i, 2/i, 8*Math.PI);](https://solipsyzm.pl/demo/index4.html) 
-[ctx.ellipse(canvas.width/2, canvas.height/2, 2, 2/i, i, i, 2/i, 8*Math.PI);](https://solipsyzm.pl/demo/index5.html) 
 [ctx.ellipse(canvas.width/2, canvas.height/2, 2, i*2, i, i/25, i, 600*Math.PI);](https://solipsyzm.pl/demo/index6.html) 
-[ctx.ellipse(canvas.width/2, canvas.height/2, 20*i, 10000/i, i/20, 8*i, 600*Math.PI);](https://solipsyzm.pl/demo/index7.html) 
-[ctx.ellipse(canvas.width/2, canvas.height/2, 20*i, 10000/i, i/200, 8000/i, 6000*Math.PI);](https://solipsyzm.pl/demo/index8.html) 
-[ctx.ellipse(canvas.width/2, canvas.height/2, 6000/i, 90000/i, i*10, i*Math.PI, 600*Math.PI);](https://solipsyzm.pl/demo/index9.html) 
 
-Add random fil color to draw Picasso style paintings:
-[ctx.ellipse(canvas.width/2, canvas.height/2, i, i*i, i*i, i, 600*Math.PI);](https://solipsyzm.pl/demo/index10.html)
+Add random fil color to [draw Picasso style paintings](https://solipsyzm.pl/demo/index10.html).
 
 Unfortunatelly, the ellipse function is [only supported](http://caniuse.com/#search=ellipse) by Chrome, Safari and Opera. 
