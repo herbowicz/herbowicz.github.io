@@ -28,10 +28,16 @@ ctx.stroke() ;
 
 Here are some examples: 
 
-[ctx.ellipse(canvas.width/2, canvas.height/2, 1, 3*i, i, 0, 2*Math.PI);](https://solipsyzm.pl/demo/index.html) 
-[ctx.ellipse(canvas.width/2, canvas.height/2, 10, 2*i, i, 0, 2*Math.PI);](https://solipsyzm.pl/demo/index2.html)
-[ctx.ellipse(canvas.width/2, canvas.height/2, 2, i*2, i, i/25, i, 600*Math.PI);](https://solipsyzm.pl/demo/index6.html) 
+[1](https://solipsyzm.pl/demo/index.html) 
+[2](https://solipsyzm.pl/demo/index2.html)
+[3](https://solipsyzm.pl/demo/index3.html) 
+[4](https://solipsyzm.pl/demo/index4.html) 
+[5](https://solipsyzm.pl/demo/index5.html) 
+[6](https://solipsyzm.pl/demo/index6.html) 
+[7](https://solipsyzm.pl/demo/index7.html) 
+[8](https://solipsyzm.pl/demo/index8.html) 
+[9](https://solipsyzm.pl/demo/index9.html)
 
-Add random fil color to [draw Picasso style paintings](https://solipsyzm.pl/demo/index10.html).
+Add random fil color to [draw Picasso-style paintings](https://solipsyzm.pl/demo/index10.html).
 
-Unfortunatelly, the ellipse function is [only supported](http://caniuse.com/#search=ellipse) by Chrome, Safari and Opera. 
+Unfortunatelly, the ellipse function is now [only supported](http://caniuse.com/#search=ellipse) by Chrome, Safari and Opera. 
