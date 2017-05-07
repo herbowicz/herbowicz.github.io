@@ -11,14 +11,14 @@ This is what I like the most. Write just one line of code to get amazing results
 
 ```html5
 ctx.beginPath() ;
-  var x             = 150;         // The X coordinate
-  var y             = 75;          // The Y cooordinate
-  var rx            = 125;         // The X radius
-  var ry            = 50;          // The Y radius
-  var rotation      = 0;           // The rotation of the ellipse (in radians)
-  var start         = 0;           // The start angle (in radians)
-  var end           = 2 * Math.PI; // The end angle (in radians)
-  var anticlockwise = false;       // The direction the ellipse is drawn (optional)
+  var x             // The X coordinate
+  var y             // The Y cooordinate
+  var rx            // The X radius
+  var ry            // The Y radius
+  var rotation      // The rotation of the ellipse (in radians)
+  var start         // The start angle (in radians)
+  var end           // The end angle (in radians)
+  var anticlockwise // The direction in which the ellipse is drawn (optional)
     
 ctx.ellipse(x, y, rx, ry, rotation, start, end, anticlockwise);
 
