@@ -9,8 +9,7 @@ lang: en-EN
 
 Write just one line of code to get amazing results. This is what I like the most. Experiment on your own by changing the following parameters:
 
-{% highlight html5 %} 
-ctx.beginPath() ;
+{% highlight html5 %} ctx.beginPath() ;
   var x             // The X coordinate
   var y             // The Y cooordinate
   var rx            // The X radius
@@ -20,7 +19,7 @@ ctx.beginPath() ;
   var end           // The end angle (in radians)
   var anticlockwise // The direction the ellipse is drawn (optional)
   
-<pre><b>ctx.ellipse(x, y, rx, ry, rotation, start, end, anticlockwise);</b></pre>
+ctx.ellipse(x, y, rx, ry, rotation, start, end, anticlockwise);
 
 ctx.stroke() ;
 {% endhighlight %} 
