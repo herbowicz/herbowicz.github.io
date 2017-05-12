@@ -33,7 +33,8 @@ Here are some examples:
 [ellipse6](https://solipsyzm.pl/demo/index6.html) (my favourite), 
 [ellipse7](https://solipsyzm.pl/demo/index7.html), 
 [ellipse8](https://solipsyzm.pl/demo/index8.html), 
-[ellipse9](https://solipsyzm.pl/demo/index9.html). 
+[ellipse9](https://solipsyzm.pl/demo/index9.html), 
+[random](https://solipsyzm.pl/demo/random.html). 
 
 When you add random fill color and some transparency, you can easily [draw Picasso-style paintings](https://solipsyzm.pl/demo/index10.html). (Please wait 20 sec. to complete.)
 
