@@ -1,7 +1,7 @@
 ---
 layout: single
 comments: true
-title: 'Fancy effects with canvas ellipse method'
+title: 'Fancy effects with html5 ellipse method'
 Category: Tutorial
 tags: [html5]
 lang: en-EN
