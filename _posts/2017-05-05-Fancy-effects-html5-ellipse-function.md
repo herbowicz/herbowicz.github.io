@@ -1,7 +1,7 @@
 ---
 layout: single
 comments: true
-title: 'Fancy effects with canvas ellipse()'
+title: 'Fancy effects with ellipse function'
 Category: Tutorial
 tags: [html5]
 lang: en-EN
@@ -10,8 +10,8 @@ lang: en-EN
 Write just one line of code to get amazing results. This is what I like the most. Experiment on your own by changing the following parameters:
 
 {% highlight html5 %} ctx.beginPath() ;
-  var x             // The X coordinate
-  var y             // The Y cooordinate
+  var x             // The X coordinate (e.g. canvas.width/2)
+  var y             // The Y cooordinate (e.g. canvas.height/2)
   var rx            // The X radius
   var ry            // The Y radius
   var rotation      // The rotation of the ellipse (in radians)
