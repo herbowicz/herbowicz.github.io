@@ -20,7 +20,7 @@ ctx.beginPath() ;
   var end           // The end angle (in radians)
   var anticlockwise // The direction the ellipse is drawn (optional)
     
-**ctx.ellipse(x, y, rx, ry, rotation, start, end, anticlockwise);**
+__ctx.ellipse(x, y, rx, ry, rotation, start, end, anticlockwise);__
 
 ctx.stroke() ;
 {% endhighlight %} 
