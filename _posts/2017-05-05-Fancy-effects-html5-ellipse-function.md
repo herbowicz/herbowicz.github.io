@@ -9,7 +9,7 @@ lang: en-EN
 
 This is what I like the most. Write just one line of code to get amazing results. Experiment on your own by changing the following parameters:
 
-```html5
+{% highlight html5 %} 
 ctx.beginPath() ;
   var x             // The X coordinate
   var y             // The Y cooordinate
@@ -23,7 +23,7 @@ ctx.beginPath() ;
 ctx.ellipse(x, y, rx, ry, rotation, start, end, anticlockwise);
 
 ctx.stroke() ;
-```
+{% endhighlight %} 
 
 Here are some examples: 
 [ellipse1](https://solipsyzm.pl/demo/index.html), 
