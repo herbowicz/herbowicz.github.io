@@ -9,7 +9,7 @@ lang: en-EN
 
 Connected using Anxios. Updated on value input change. Type Username to get the info about Github users. 
 
-```jsx
+{% highlight jsx %}
 import React from 'react';
 import ReactDOM from 'react-dom';
 import axios from 'axios';
@@ -61,4 +61,4 @@ ReactDOM.render(
     <App />,
     document.getElementById('app')
 );
-```
+{% endhighlight %}
