@@ -18,9 +18,9 @@ ctx.beginPath() ;
   var rotation      // The rotation of the ellipse (in radians)
   var start         // The start angle (in radians)
   var end           // The end angle (in radians)
-  var anticlockwise // The direction in which the ellipse is drawn (optional)
+  var anticlockwise // The direction the ellipse is drawn (optional)
     
-ctx.ellipse(x, y, rx, ry, rotation, start, end, anticlockwise);
+**ctx.ellipse(x, y, rx, ry, rotation, start, end, anticlockwise);**
 
 ctx.stroke() ;
 {% endhighlight %} 
