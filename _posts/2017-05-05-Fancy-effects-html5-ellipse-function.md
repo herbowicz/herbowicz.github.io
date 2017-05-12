@@ -7,7 +7,7 @@ tags: [html5]
 lang: en-EN
 ---
 
-This is what I like the most. Write just one line of code to get amazing results. Experiment on your own by changing the following parameters:
+Write just one line of code to get amazing results. This is what I like the most. Experiment on your own by changing the following parameters:
 
 {% highlight html5 %} 
 ctx.beginPath() ;
@@ -19,8 +19,8 @@ ctx.beginPath() ;
   var start         // The start angle (in radians)
   var end           // The end angle (in radians)
   var anticlockwise // The direction the ellipse is drawn (optional)
-    
-__ctx.ellipse(x, y, rx, ry, rotation, start, end, anticlockwise);__
+  
+**`ctx.ellipse(x, y, rx, ry, rotation, start, end, anticlockwise);`**  
 
 ctx.stroke() ;
 {% endhighlight %} 
