@@ -2,7 +2,7 @@
 layout: single
 published: true
 comments: true
-title: 'A new type of font: 12 Lines'
+title: '12 Lines is a new type of font'
 Category: Demo
 tags: [font]
 lang: en-EN
