@@ -32,7 +32,7 @@ letsencrypt certonly --manual -d yourdomain.com
 ```
 
 4. Provide your email address and agree to the Terms of Service. 
-To verify that you are the owner of this domain, you will have to upload one specific file (without extention) before continuing, as prompted: Make sure your web server displays the following content at:
+To verify that you are the owner of this domain, you will have to upload one specific file (without extention) before continuing. Make sure your web server displays the following content at:
 ```
 http://yourdomain.com/.well-known/acme-challenge/1234567890-long-line-of-characters-1234567890 
 
