@@ -36,9 +36,8 @@ To verify that you are the owner of this domain, you will have to upload one spe
 
 Make sure your web server displays the following content at:
 ```
-http://yourdomain.com/.well-known/acme-challenge/12345678901234567890-long-line-of-characters-1234567890 
-```
-```
+http://yourdomain.com/.well-known/acme-challenge/1234567890-long-line-of-characters-1234567890 
+
 12345678901234567890-even-longer-line-of-characters-123456789012345678901234567890
 ```
 
