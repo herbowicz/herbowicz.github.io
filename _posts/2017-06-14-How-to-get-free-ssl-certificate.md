@@ -66,8 +66,7 @@ openssl rsa -in privkey.pem -text
 
 9. Copy both. If you have access the cPanel, go to SSL/TLS Manager. Click on Generate, view, upload, or delete your private keys, and paste them there.
 
-10. That should work and you will see your website using SSL: https://yourdomain.com
-Optionally, you can redirect all your trafic to SSL connection. Modify .httacces file:
+10. That should work and you will see your website using SSL: https:// Optionally, you can redirect all your trafic to SSL connection. Modify .httacces file:
 
 ```
 RewriteEngine On
