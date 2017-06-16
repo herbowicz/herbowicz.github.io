@@ -59,16 +59,16 @@ cd etc/letsencrypt/live/yourdomain.com
 apt-get install openssl
 ```
 
-8. To obtain your certificate:
+8. Obtain your certificate:
 ```
 openssl x509 -in fullchain.pem -text
 ```
-And to get your private key
+And get your private key:
 ```
 openssl rsa -in privkey.pem -text
 ```
 
-9. Copy your certificate and private key. If you have access the cPanel, go to SSL/TLS Manager. Click on Generate, view, upload, or delete your private keys, and paste it there.
+9. Copy both. If you have access the cPanel, go to SSL/TLS Manager. Click on Generate, view, upload, or delete your private keys, and paste them there.
 
 10. That should work and you will see your website using SSL: https://yourdomain.com
 Optionally, you can redirect all your trafic to SSL connection. Modify .httacces file:
