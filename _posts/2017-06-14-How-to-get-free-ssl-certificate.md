@@ -31,8 +31,7 @@ git clone https://github.com/letsencrypt/letsencrypt
 letsencrypt certonly --manual -d yourdomain.com
 ```
 
-4. Provide your email address and agree to the Terms of Service. 
-To verify that you are the owner of this domain, you will have to upload one specific file (without extention) before continuing. Make sure your web server displays the following content at:
+4. Provide your email address and agree to the Terms of Service. To verify that you are the owner of this domain, you will have to upload one specific file (without extention) before continuing. Make sure your web server displays the following content at:
 ```
 http://yourdomain.com/.well-known/acme-challenge/12345-long-line-of-characters-12345
 12345678901234567890-even-longer-line-of-characters-123456789012345678901234567890
