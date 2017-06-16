@@ -15,7 +15,7 @@ In boils down to writing just one line of code:
 letsencrypt certonly --manual -d yourdomain.com
 ```
 
-However, there are some prerequisites to be met and the way how the whole process is described at the official site makes many people confused. 
+However, there are some prerequisites to be met, and the way how the whole process is described at the official site makes many people confused. 
 So here is the shortest description, the easiest way to get a free SSL certificate:
 
 1. It won't work on Windows.
@@ -31,14 +31,13 @@ git clone https://github.com/letsencrypt/letsencrypt
 letsencrypt certonly --manual -d yourdomain.com
 ```
 
-4. Provie your email address and agree to the Terms of Service. 
-To verify that you are the owner of this domain, you will have to upload one specific file (no extention) before continue, as prompted:
+4. Provide your email address and agree to the Terms of Service. 
+To verify that you are the owner of this domain, you will have to upload one specific file (without extention) before continuing, as prompted:
 
 Make sure your web server displays the following content at:
 ```
 http://yourdomain.com/.well-known/acme-challenge/12345678901234567890-long-line-of-characters-1234567890 
 ```
-before continuing:
 ```
 12345678901234567890-even-longer-line-of-characters-123456789012345678901234567890
 ```
