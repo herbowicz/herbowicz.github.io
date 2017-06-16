@@ -9,7 +9,7 @@ lang: en-EN
 
 Google [announced](https://security.googleblog.com/2016/09/moving-towards-more-secure-web.html) SSL is mandatory in 2017. 
 All sites without SSL now see a "Not secure" warning, which is really distracting.
-You can buy your SSL certificate or get it for free from [Let's Encrypt](https://letsencrypt.org/).
+Get it for free from [Let's Encrypt](https://letsencrypt.org/).
 In boils down to writing just one line of code:
 ```
 letsencrypt certonly --manual -d yourdomain.com
