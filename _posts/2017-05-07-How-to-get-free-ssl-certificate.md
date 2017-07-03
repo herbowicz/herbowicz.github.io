@@ -1,7 +1,7 @@
 ---
 layout: single
 comments: true
-title: 'Get your free SSL certificate in 10 easy steps'
+title: 'Free SSL certificate in 10 easy steps'
 Category: Tutorial
 tags: [SSL]
 lang: en-EN
