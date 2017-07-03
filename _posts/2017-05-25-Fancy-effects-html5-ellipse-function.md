@@ -7,7 +7,7 @@ tags: [html5]
 lang: en-EN
 ---
 
-This is what I like the most. Write just one line of code to get amazing results! Experiment on your own by changing the following parameters:
+This is what I like the most! Write just one line of code to get amazing results! Experiment on your own by changing the following parameters:
 
 {% highlight html5 %} ctx.beginPath() ;
   var x             // The X coordinate (e.g. canvas.width/2)
