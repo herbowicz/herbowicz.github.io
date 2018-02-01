@@ -6,8 +6,6 @@
         margin: 0 auto;
         padding: 0;
         overflow: hidden;
-        color: #ddd;
-        background-color: #222;
       }
       div {
         color: #ddd; 
@@ -169,6 +167,7 @@ document.onkeypress = function(evt) {
     clear();
 
     ctx.beginPath();  ctx.lineWidth=w;
+    ctx.strokeStyle = '#ddeedd';
     //horizontal lines
     ctx.moveTo(s+l,s+d); if (sign[at][0]) { ctx.lineTo(s*2+l,s+d); } 
     ctx.moveTo(s*2+l,s+d); if (sign[at][1]) { ctx.lineTo(s*3+l,s+d); }
