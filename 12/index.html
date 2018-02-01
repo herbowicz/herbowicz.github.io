@@ -142,7 +142,8 @@ var cursor = function(){
       ctx.beginPath();  
       ctx.lineWidth=w;
       ctx.moveTo(s+l,s*3+d); 
-      ctx.lineTo(s*3+l,s*3+d); 
+      ctx.lineTo(s*3+l,s*3+d);       
+      ctx.strokeStyle = '#ccc';
       ctx.stroke(); 
       on = false;
     } else {
@@ -168,7 +169,7 @@ document.onkeypress = function(evt) {
     clear();
 
     ctx.beginPath();  ctx.lineWidth=w;
-    ctx.strokeStyle = '#ddeedd';
+
     //horizontal lines
     ctx.moveTo(s+l,s+d); if (sign[at][0]) { ctx.lineTo(s*2+l,s+d); } 
     ctx.moveTo(s*2+l,s+d); if (sign[at][1]) { ctx.lineTo(s*3+l,s+d); }
@@ -188,6 +189,7 @@ document.onkeypress = function(evt) {
     ctx.moveTo(s*3+l,s+d); if (sign[at][10]) { ctx.lineTo(s*3+l,s*2+d); } 
     ctx.moveTo(s*3+l,s*2+d); if (sign[at][11]) { ctx.lineTo(s*3+l,s*3+d); }
 
+    ctx.strokeStyle = '#ccc';
     ctx.stroke();
     l += s*3; 
 }
