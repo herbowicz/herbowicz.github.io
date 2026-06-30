@@ -82,8 +82,8 @@ function Hero({ t, user, onOpenAuth, onBook }) {
           </div>
         </div>
 
-        <div className="lg:col-span-5 reveal-up delay-3 relative flex flex-col items-center lg:items-end">
-          <div className="w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 rounded-full overflow-hidden bg-[#F2EFE9] ring-1 ring-stone-900/10 shadow-sm">
+        <div className="lg:col-span-5 reveal-up delay-3 relative">
+          <div className="aspect-[4/5] overflow-hidden bg-[#F2EFE9]">
             <img
               src={PORTRAIT}
               alt="Grzegorz Herbowicz"
@@ -91,7 +91,7 @@ function Hero({ t, user, onOpenAuth, onBook }) {
               className="w-full h-full object-cover grayscale-[10%] hover:grayscale-0 transition-all duration-700"
             />
           </div>
-          <p className="caption text-stone-500 mt-4">Grzegorz Herbowicz · Warsaw</p>
+          <p className="caption text-stone-500 mt-4 text-right">Grzegorz Herbowicz · Wrocław</p>
         </div>
       </div>
 
