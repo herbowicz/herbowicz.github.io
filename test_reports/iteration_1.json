@@ -1,0 +1,31 @@
+{
+  "summary": "Latency-sensitive first-finish smoke testing for Herbowicz consulting site. All backend smoke endpoints and the primary frontend flows (home load, lang toggle, register, admin login, protected-route redirect, booking, logout) verified end-to-end against the public preview URL.",
+  "tested_scope": ["frontend", "backend", "auth", "integration"],
+  "passed": [
+    "GET /api/ -> 200 {status:ok,service:herbowicz-consulting}",
+    "POST /api/auth/register -> 200 returns token + user_id, sets access_token cookie",
+    "GET /api/auth/me with cookie -> 200 returns provider=password user",
+    "POST /api/auth/login admin grzegorz@herbowicz.com / Leibniz1646! -> 200 (admin seed working)",
+    "POST /api/contact -> 200 {ok:true} (Resend test-mode tolerated as expected)",
+    "POST /api/bookings (authed) -> 200 returns booking with id (no _id leak)",
+    "GET /api/bookings (authed) -> 200 returns array including the created booking",
+    "Home page renders Navigation, Hero (Leibniz quote + portrait), nav-login-btn, lang-toggle, contact-form",
+    "lang-toggle switches visible text (EN <-> PL)",
+    "Protected /dashboard while unauthenticated redirects to /",
+    "Register flow via AuthModal (nav-login-btn -> auth-tab-register -> auth-submit-btn) redirects to /dashboard",
+    "Admin login via AuthModal redirects to /dashboard",
+    "Booking flow on /dashboard: select calendar date (next month, weekday), click time-slot-10:00, fill booking-topic, submit booking-submit-btn -> booking-success message appears",
+    "nav-logout-btn clears session; subsequent /dashboard navigation redirects to /",
+    "auth-google-btn is present in AuthModal (BUTTON element; full OAuth flow not testable headlessly per spec)"
+  ],
+  "failed": [],
+  "action_items": [],
+  "success_rate": {"backend": "100% (7/7 endpoints)", "frontend": "100% (all critical flows)"},
+  "retest_needed": false,
+  "full_testing_deferred": true,
+  "notes": [
+    "Resend 403 for non-verified recipients is swallowed by backend as expected (test mode).",
+    "Cookies set with samesite=none; secure=true; tested via https preview URL.",
+    "Admin user is seeded on startup (login succeeds with credentials from /app/memory/test_credentials.md)."
+  ]
+}
