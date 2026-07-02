@@ -46,8 +46,8 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Craco/CRA builds output to a folder named 'build' (not 'dist')
-          # Depending on your craco.config.js, it will land in frontend/src/build or frontend/build
-          path: 'frontend/src/build'
+          # Depending on your craco.config.js, it will land in frontend/build
+          path: 'frontend/build'
           
       - name: Deploy to GitHub Pages
         id: deployment
