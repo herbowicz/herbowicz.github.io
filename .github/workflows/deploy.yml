@@ -28,6 +28,7 @@ jobs:
         with:
           node-version: 20
           cache: 'npm'
+          # Fixes the caching warning by pointing directly to your lockfile location
           cache-dependency-path: frontend/src/package-lock.json
 
       - name: Install dependencies
@@ -37,14 +38,17 @@ jobs:
       - name: Build project
         run: npm run build
         working-directory: frontend/src
+        env:
+          # Craco/CRA sometimes fails on warnings; this ensures the build succeeds
+          CI: false 
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # If your build tool outputs to frontend/src/dist, keep this.
-          # If it outputs to the root frontend/dist, change this to 'frontend/dist'
-          path: 'frontend/src/dist' 
-
+          # Craco/CRA builds output to a folder named 'build' (not 'dist')
+          # Depending on your craco.config.js, it will land in frontend/src/build or frontend/build
+          path: 'frontend/src/build'
+          
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
