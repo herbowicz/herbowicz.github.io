@@ -26,12 +26,11 @@ jobs:
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
-          node-version: 22  # Using stable Node 22
-          # Removed the 'cache' and 'cache-dependency-path' lines entirely
+          node-version: 22
 
       - name: Install dependencies
-        # Switched from 'npm ci' to 'npm install' so it doesn't crash without a lockfile
-        run: npm install
+        # Added the flag to bypass the rigid react-day-picker peer dependency check
+        run: npm install --legacy-peer-deps
         working-directory: frontend/src
 
       - name: Build project
@@ -43,7 +42,6 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Pointed exactly to where Craco drops the production assets
           path: 'frontend/build'
           
       - name: Deploy to GitHub Pages
